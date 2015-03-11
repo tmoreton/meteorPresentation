@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Meteor.js</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section data-background-image="./images/meteor-faded.png">
+        <h1>METEOR.js</h1>
+        </section>
+
+
+        <section data-background-image="./images/meteor-faded.png">
+        <h2>What is Meteor.js? What makes it different</h2>
+        <ul>
+          <li>Meteor is an Open-source Fullstack Javascript Framework/Platform.</li>
+          <li>An application built with Meteor runs on both the client</li>
+          <li>Easily ported to Browser and Mobile Apps</li>
+          <li>Live updates to the database with web sockets</li>
+          <li>Unified package system with <a href="http://atmospherejs.com" />Atmosphere.js</a></li>
+          <li>One of the first frameworks to essentially encompass the entire MEAN stack</li>
+
+        </ul>
+        </section>
+
+
+        <section data-background-image="./images/meteor-faded.png">
+          <h2>MEAN stack VS. Meteor</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>MEAN</td>
+                <td>Meteor</td>
+              <tr>
+              <tr>
+                <td>MongoDB</td>
+                <td>MongoDB (and MiniMongo)</td>
+              <tr>
+              <tr>
+                <td>Angular</td>
+                <td>HandleBars (templating)</td>
+              <tr>
+              <tr>
+                <td>Node.js</td>
+                <td>Built on top of Node.js</td>
+              <tr>
+              <tr>
+                <td>Express</td>
+              <tr>
+            </tbody>
+          </table>
+        </section>
+
+<!--         <section data-markdown data-background-image="./images/meteor-faded.png">
+        <h2>Example</h2>
+          ## Meteor Create Name-Of-Here
+          ## Three files created 1 .css, 1 .html, 1 .js
+          <script type="text/template">
+          <template name="hello">
+            <button>Click Me</button>
+            <p>You have pressed the button {{counter}} times.</p>
+          </template>
+          </script>
+        </section> -->
+
+
+        <section data-background-image="./images/meteor-faded.png">
+        <img height="500" data-src="./images/infographic.png" alt="Down arrow">
+        </section>
+
+        <section data-background-image="./images/meteor-faded.png">
+            <h2>Examples</h2>
+
+            <li>curl https://install.meteor.com/ | sh</li>
+            <h4>Installs Meteor</h4>
+
+            <li>meteor create APP-NAME-HERE</li>
+            <h4>Creates Meteor App</h4>
+
+            <li>meteor</li>
+            <h4>Run App</h4>
+
+            <a href="http://localhost:3000"/>Localhost</a>
+            <br>
+            <h2>Running on Native Mobile</h2>
+            <li>meteor install-sdk (android OR ios)</li>
+            <li>meteor add-platform (android OR ios)</li>
+            <li>meteor run (android OR ios)</li>
+
+        </section>
+
+
+
+
+
+
+<!--
+              <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+
+            ## Markdown support
+            Write content using inline or external Markdown.
+            Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+
+            ```
+            <section data-markdown>
+              ## Markdown support
+
+              Write content using inline or external Markdown.
+              Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+            </section>
+
+            <p class="fragment grow">grow</p>
+
+            <a href="?transition=zoom#/transitions">Zoom</a>
+
+            reveal.js comes with a few themes built in:
+            ##Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck.
+            <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+
+          <section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
+
+        <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+
+
+        <section>
+          <h2>Tabular Tables</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Value</th>
+                <th>Quantity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Apples</td>
+                <td>$1</td>
+                <td>7</td>
+              <tr>
+              <tr>
+                <td>Lemonade</td>
+                <td>$2</td>
+                <td>18</td>
+              <tr>
+              <tr>
+                <td>Bread</td>
+                <td>$3</td>
+                <td>2</td>
+              <tr>
+            </tbody>
+          </table>
+        </section> -->
+
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
